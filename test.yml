@@ -1,0 +1,20 @@
+name: Ali
+age: 28
+adress: "str: lala"
+active: true
+key:
+    val1: aaa
+    val2: 23
+    obj:
+        anotherval: "AA"
+        onemoreval: 14
+
+array:
+    - item1
+    - item2
+    - key1: value1
+
+longText: abafadsadsad
+adsadsadsadsa
+dsadsadasfegeg
+    
