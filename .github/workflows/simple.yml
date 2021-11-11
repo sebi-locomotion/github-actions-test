@@ -18,3 +18,9 @@ jobs:
           import platform
           print(platform.processor())
         shell: python
+
+  run-shell-command-windows:
+    runs-on: windows-latest
+    steps:
+      - name: echo a string from windows
+        run: echo "Hello from windows"
