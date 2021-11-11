@@ -22,5 +22,7 @@ jobs:
   run-shell-command-windows:
     runs-on: windows-latest
     steps:
-      - name: echo a string from windows
-        run: echo "Hello from windows"
+      - name: Directory PowerShell
+        run: Get-Location
+      - name: Directory Bash
+        run: pwd
